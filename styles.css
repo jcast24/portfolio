@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", "Hind";
+    /* background-color: #deefe7; */
+    background-color: #444e5c;
+    /* margin: 0;
+      padding: 0; */
+}
+
+/* Nav Bar */
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    justify-content: flex-end;
+    /* border: 1px solid; */
+    padding-right: 10px;
+}
+
+ul a {
+    text-decoration: none;
+    /* color: #002333; */
+    color: white;
+}
+
+ul-icons,
+i {
+    color: white;
+}
+
+button {
+    font-family: "Montserrat", "Hind";
+    background-color: #002333;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    /* border: 1px solid; */
+    margin: 30px;
+    margin-top: 10rem;
+}
+
+main p {
+    color: #b2cef2;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+.h2-name {
+    /* color: #002333; */
+    color: white;
+    font-size: 4rem;
+}
