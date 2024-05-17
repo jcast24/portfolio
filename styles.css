@@ -49,10 +49,21 @@ button {
 }
 
 /* Main Content */
-main {
+
+.main-content {
     /* border: 1px solid; */
-    margin: 30px;
-    margin-top: 10rem;
+    /* margin: 30px;
+    margin-top: 10rem; */
+
+    /* Center  */
+    /* max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto; */
+
+    /* Center with flex */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 main p {
