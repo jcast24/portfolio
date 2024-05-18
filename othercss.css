@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Hind";
+}
+
+html {
+  background-color: slategrey;
+}
+
+/* background-color: #283044 */
+
+nav {
+  /* border: 2px solid black; */
+  width: 275px;
+  height: 1000px;
+  position: fixed;
+  background-color: #283044;
+  text-decoration: none;
+  /* margin-top: 100px; */
+}
+
+ul {
+  margin-top: 100px;
+  /* border: 2px solid green; */
+}
+
+li {
+  /* border: 1px solid black; */
+  list-style-type: none;
+  margin: 10px;
+  text-align: center;
+}
+
+a {
+  /* border: 1px solid pink; */
+  /* background-color: grey; */
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+
+/* li a.active {
+  background-color: grey;
+  border-radius: 10px;
+} */
