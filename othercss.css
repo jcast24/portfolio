@@ -2,14 +2,16 @@
   padding: 0;
   margin: 0;
   font-family: "Hind";
+  box-sizing: border-box;
 }
+
 
 html {
-  background-color: slategrey;
+  background-color: #708090;
+  scroll-behavior: smooth;
 }
 
-/* background-color: #283044 */
-
+/* SIDE-NAV BAR */
 nav {
   /* border: 2px solid black; */
   width: 275px;
@@ -17,7 +19,6 @@ nav {
   position: fixed;
   background-color: #283044;
   text-decoration: none;
-  /* margin-top: 100px; */
 }
 
 ul {
@@ -29,23 +30,50 @@ li {
   /* border: 1px solid black; */
   list-style-type: none;
   margin: 10px;
-  text-align: center;
+  padding-left: 10px;
 }
 
 a {
   /* border: 1px solid pink; */
-  /* background-color: grey; */
+  /* background-color: aliceblue; */
   color: white;
   font-size: 30px;
   text-decoration: none;
 }
 
+
 li:hover {
-  background-color: darkgrey;
+  /* 128 128 128 grey */
+  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.2);
   border-radius: 10px;
 }
 
-/* li a.active {
-  background-color: grey;
+li.active {
+  /* 119 136 153 lightslategray */
+  /* background-color: rgba(119, 136, 153); */
+  background-color: lightslategrey;
+  /* 119 136 153 */
   border-radius: 10px;
-} */
+}
+
+/* MAIN CONTENT */
+
+.main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+
+main {
+  border: 1px solid green;
+  padding: 27.5rem;
+  margin-left: 17.10rem;
+}
+
+.main-text {
+  border: 1px solid black;
+}
